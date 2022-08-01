@@ -1,0 +1,19 @@
+{
+  "name": "planilha_de_gastos",
+  "version": "1.0.0",
+  "description": "Planila de gastos q irá gerar gráficos e um pdf no final da inserção de dados",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./server.js"
+  },
+  "author": "Kal Nascimento",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

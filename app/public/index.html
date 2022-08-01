@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Planilha de Gastos</title>
+</head>
+<body>
+    <header>
+        <h1>Controle Mensal</h1>
+    </header>
+    <main>
+        <form method="post">
+            <fieldset>
+                <label>Ganho fixo mensal<input type="text" id="ganho-fixo-mensal" name="renda_fixa"></label>
+                <label>Renda extra mensal<input type="text" id="renda-extra-mensal" name="renda_extra"></label>
+                <label>Total<p id="total-mensal"><p></label>
+            </fieldset>
+            
+            <fieldset>
+                <h4>Gastos Fixos</h4>
+                <button type="button" onclick="NovoGasto('gastos-fixos')">Novo gasto</button>
+                <div id="gastos-fixos">
+                    <input id="gasto-fixo-mensal" type="text" name="inputGastosFixos">
+                </div>
+            </fieldset>
+    
+            <fieldset>
+                <h4 onclick="">Gastos Variáveis</h4>
+                <button type="button" onclick="NovoGasto('gastos-variaveis')">Novo gasto</button>
+                <div id="gastos-variaveis">
+                </div>
+            </fieldset>
+            <input type="submit" value="submit" name="submit_button">
+        </form>
+    </main>
+    <button type="button" onclick="NovoCirculo()">New Circle</button>
+    <div id="circle">
+    </div>
+    <script src="./javascript/scripts.js"></script>
+</body>
+</html>

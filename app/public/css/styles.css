@@ -1,0 +1,18 @@
+.circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    background-color: gray;
+    border-top: 3px solid transparent;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+    transform: rotate(45deg);
+  }
+
+#cut-circ {
+    stroke-dasharray: 100;
+    width: 100px;
+    height: 100px;
+}
